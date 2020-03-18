@@ -1,0 +1,31 @@
+.contenedor{
+  width: 300px;
+  height: 50px;
+  font-style: italic;
+  font-size: 55px;
+  line-height: 55px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+.contenedor li{
+  list-style: none;
+}
+.contenedor ul{
+  animation: texto 10s infinite ;
+  animation-direction: alternate;
+  padding-left: 10px;
+}
+ul,p{
+  margin: 0;
+}
+@keyframes texto {
+  0% { margin-top: 0;}
+  33% { margin-top: 0;}
+
+  35% { margin-top: -50px;}
+  68% { margin-top: -50px;}
+
+  70% { margin-top: -100px;}
+  100% { margin-top: -100px;}
+}
