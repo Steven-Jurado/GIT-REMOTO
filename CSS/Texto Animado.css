@@ -33,3 +33,7 @@ h1{
   font-style: italic;
   color: rgb(43, 104, 164);
 }
+p{
+  font-size: 25px;
+  font-style: oblique;
+}
