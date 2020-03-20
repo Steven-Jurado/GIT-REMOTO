@@ -34,6 +34,9 @@ h1{
   color: rgb(43, 104, 164);
 }
 #anita{
-  text-align: right;
+  cursor: crosshair;
+  font-family: cursive;
+  text-decoration: underline;
+  text-align:justify;
   color:#333;
 }
